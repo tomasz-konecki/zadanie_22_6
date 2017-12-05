@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 import styles from './Navigation.css';
 
 const Navigation = () => {
-  const test = 'test';
   return (
     <nav className = {styles.menu}>
       <ul>

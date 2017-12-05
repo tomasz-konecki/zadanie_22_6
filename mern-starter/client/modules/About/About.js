@@ -1,10 +1,6 @@
-import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import React, { PropTypes } from 'react';
 
-
-class About extends Component {
-  render() {
+const About = () => {
     return (
       <div>
         <h2>Kodilla</h2>
@@ -13,20 +9,6 @@ class About extends Component {
       </div>
     )
   }
-};
 
-const mapStateToProps = (state) => {
-  return {};
-};
 
-const mapDispatchToProps = (dispatch) => {
-  return {};
-};
-
-About.propTypes = {
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(About);
+export default About;
