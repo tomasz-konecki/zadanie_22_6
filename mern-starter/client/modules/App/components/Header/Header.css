@@ -35,6 +35,10 @@
 
 .language-switcher {
   background: rgba(0, 0, 0, 0.1);
+  background: skyblue;
+  display: flex;
+  .flex-direction: row;
+  .justify-content: space-around;
 }
 
 .language-switcher ul {

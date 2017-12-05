@@ -1,29 +1,17 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router';
 import { bindActionCreators } from 'redux';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <h2>Hello world!</h2>
+        <h2>Welcome to the home Page</h2>
+        <Link to="/" >Click here to see the posts</Link>
       </div>
     )
   }
 };
 
-const mapStateToProps = (state) => {
-  return {};
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return {};
-};
-
-Home.propTypes = {
-};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Home);
+export default Home;
